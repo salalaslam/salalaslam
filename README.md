@@ -1,17 +1,29 @@
-Hi, I'm Salal.
+# Salal Aslam
 
-I've been building software for 13+ years. Most of my work sits somewhere between product thinking, engineering, and getting things shipped, so I like owning problems end to end.
+I'm a full-stack engineer with over 14 years of experience. I work in TypeScript and Python, and most of my recent work involves LLMs.
 
-I usually work across:
+I'm open to full-time roles and contract work. I work remotely from Pakistan, UTC+5.
 
-- React and Next.js frontends that feel fast and stay fast
-- NestJS and Node.js backends with Postgres, where performance and maintainability both matter
-- The shipping side too: GitHub Actions, GHCR, AWS EC2/S3, and the production glue around it
+## What I work on
 
-I spend a lot of time tracking down performance issues and weird bugs. That can mean fixing an N+1 query, adding the right index, reading query plans, figuring out why a React component keeps re-rendering when it shouldn't, or working through why something that looked fine locally starts falling over in production.
+- React and Next.js frontends, and Node, NestJS and FastAPI backends on Postgres.
+- LLM features, including prompts, evals, model benchmarks, and pipelines that send most calls to a cheaper model.
+- Performance problems such as N+1 queries, missing indexes, large bundles and extra React re-renders.
+- Deployment and monitoring with Docker, GitHub Actions, AWS, Vercel and Sentry.
 
-I care about the boring good stuff: TypeScript, linting, formatting, tests, profiling, telemetry, and observability. I've also helped teams improve real-world frontend performance, including LCP, INP, and CLS. Not because it looks nice on a checklist, but because it makes codebases easier to work on when they get big and messy.
+I've built products for companies in HR, healthcare, procurement, hospitality and consumer AI.
 
-I've worked on SaaS products, helped teams scale them, mentored engineers, and more recently spent a lot of time helping developers get real use out of AI coding tools like Claude Code, Codex, Cursor, Github Copilot etc. Used well, they save time. Used badly, they make a mess.
+## Selected work
 
-If you're building something and want someone who can think through the approach, write the code, debug the ugly parts, and get it into production, feel free to reach out.
+- I raised LLM extraction accuracy from 63% to 92% against hand-checked data by benchmarking models and redesigning the pipeline. Cost per document went down at the same time.
+- I built an LLM service that replaced a retired third-party service inside a client's core system. It extracts data against a versioned schema, runs OCR on scanned files, checks the output, and returns results by signed callback.
+- I set up bundle analysis on a large Next.js and MUI app, moved its heavy modules into lazy-loaded chunks, and cut extra re-renders with memoization and zustand selectors.
+- I've used AI coding tools since the GitHub Copilot technical preview in 2022. I now work mostly through Claude Code and Codex, and I write the agent instructions, [skills](https://github.com/salalaslam/skills), coverage gates and eval loops my teams use with them.
+
+## Stack
+
+TypeScript, Python, React, Next.js, TanStack, Node, NestJS, FastAPI, Postgres, Redis, OpenAI, Anthropic, OpenRouter, LlamaIndex, Docker, GitHub Actions, AWS, Vercel, Sentry, OpenTelemetry, Grafana.
+
+## Contact
+
+Email me at [salalaslam@gmail.com](mailto:salalaslam@gmail.com).
